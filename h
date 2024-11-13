@@ -1,0 +1,173 @@
+[33m6a554a5[m[33m ([m[1;36mHEAD -> [m[1;32mvjagarcia-main-patch-78929[m[33m, [m[1;31morigin/vjagarcia-main-patch-78929[m[33m)[m Merge branch 'vjagarcia-main-patch-78929' of https://gitlab.com/asdasdf7483134/adfsdfa into vjagarcia-main-patch-78929
+[33m7c8be3a[m Fixed the Quantity issue based on the QA comments.
+[33m826a154[m Revert "Added the new required fields and also added the auto populate of 2.5 weeks in the fitting dates."
+[33m7055116[m Updated the quantity fields based on the QA comments.
+[33mba1dc4a[m[33m ([m[1;31morigin/jbmolina-QA[m[33m)[m Merge branch 'Carlo_secu' into 'vjagarcia-main-patch-78929'
+[33m0774355[m Update configs password
+[33mbe82544[m Added the new required fields and also added the auto populate of 2.5 weeks in the fitting dates.
+[33m8fcf2ac[m Goal of this commit is to fix the bug in duplicate entries in clients based from the previous testing. Also, updated the dashboards, added some filtering.
+[33mc935c31[m Updated UI/UX and revise some parts of the JO fields.
+[33m56fbf7a[m Updated Fields and Added calendar Dashboard
+[33me7452ad[m Merge branch 'angelovillaflor' into 'vjagarcia-main-patch-78929'
+[33m2fc9437[m Merge branch 'vjagarcia-main-patch-78929' into 'angelovillaflor'
+[33m3940ce0[m Improved JO Fields and Dynamic Order Forms (Coats, Vests, Pants/Skirts, Shirts)
+[33m261a9c5[m add ons
+[33m61efc58[m Calendar Dashboard
+[33m1966118[m Merge branch 'main' into angelovillaflor
+[33m746f702[m[33m ([m[1;31morigin/secu_stuff[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://gitlab.com/asdasdf7483134/adfsdfa
+[33m698887b[m Merge branch 'vjagarcia-main-patch-78929' into 'main'
+[33m78377de[m Updated New Order Button and Added Restrictions Based On Brand Name Selected
+[33m8d1a9bd[m This commit has improvements of the Job Order entries and Formatting of the names making it uppercase.
+[33m8b85f4e[m Update clients.rb to add New Order button
+[33m712392e[m Update application.html.erb
+[33m93a94e1[m Merge branch 'vjagarcia-main-patch-78929' into 'main'
+[33mc47a382[m SD-12 SD-13 done
+[33mcaee09c[m Update Gemfile ruby version
+[33mfe3bff7[m Update Gemfile
+[33m576707c[m fix specs_form logic
+[33m80fec6a[m Hot fixes for shirting barong
+[33mdad53ab[m Add normal to stature
+[33m3e1220d[m Fix cuff image
+[33m7aadf61[m Hot fix test by removing coat
+[33m7bb6674[m Hot fix on permit params
+[33mb74a0a1[m Add new field in pants
+[33m1f59aa0[m Add button spacing in report
+[33mba26507[m Hot fix to printing
+[33mb47ae0a[m Fix client appointment spelling
+[33m30105bf[m Fix validation issues
+[33md26d7f2[m Add validation to code
+[33m61f3020[m Fix others if its not part of the choices in enum values for reports
+[33mc94cb44[m Remove quantity
+[33m00b0114[m Update changes in quanity and backplacket
+[33mcb8927e[m Remove excess
+[33m509af08[m Update shirt cuffs
+[33mecf3ec3[m Fix pocket
+[33m0e0675e[m Shirt image sleeves
+[33mfe6e95a[m Fix Shirt Collar
+[33mdb5b184[m Change coat boutonniere to shirt boutonniere
+[33m3736c30[m Add mixing values in shirts
+[33ma781a43[m Fix duplicates in shirts
+[33m1da2fed[m Draft shirt changes in report
+[33m0c03831[m Fix order of coat sizing
+[33md991ade[m Add “NO LAPEL” on Lapel style options.
+[33m944fc21[m Fix Vest Format
+[33m1163efd[m Update pants in report
+[33m55ffb2d[m Remove users in order_controller
+[33mc2b70b8[m Blind image change for button style
+[33m7104a97[m Change to focus button image 2
+[33m40bd83b[m Clean fabric and lining code
+[33mcebb525[m Fix Pants Reports
+[33mc0e93c5[m Add type of button in shirts
+[33m9d15feb[m Fix shirt report
+[33m56d9231[m Place sizing up in the pants
+[33m711a552[m Fix redundant fabric label
+[33m8fe02bc[m Add coat to shirts report
+[33md6530c2[m Capitalize Bespoke
+[33m0cecb83[m Remove pleats in shirts
+[33md5919ad[m Fix alignment on coat
+[33m0004b9f[m Fix pants report
+[33mafcafe8[m Add bespoke
+[33m6e6e178[m Quick Fixes for the report
+[33m20fd9f1[m Fix sleeve buttons
+[33m439e212[m Replace coatr
+[33mc0381a9[m Format hot fix
+[33m1543e2d[m Fix duplicate in enums on coat
+[33m7b0ead3[m Fix type of buttons
+[33m868113c[m Hot fix for jo numbers and such lols
+[33m5ca2527[m Segregate reports
+[33m2a05600[m Fix bottom label design
+[33ma482e8c[m Update Pants report
+[33m02df035[m Add pockets to reports
+[33maa072c2[m Add Linning to reports
+[33mc22b37e[m Add vents
+[33m1a71602[m Fix lapel Style
+[33mb5b0d3a[m Add Print buttons
+[33m39ab4e6[m Report hot fix for pants
+[33m6774006[m Report button color selections
+[33m723599c[m Report selection for coat style
+[33mba21a5a[m Quick fix for quote reports
+[33mf297578[m Add lining and fabric code to vest migration
+[33maa29603[m Update show page
+[33m3c4d6da[m Add quantity migration
+[33m0a46646[m Update reports
+[33m01feaeb[m Remove enum back placket:x
+[33me4e4543[m Add error handling when client is deleted
+[33mc5547fc[m Fix buttons
+[33m7a0aab4[m Remove extra vent
+[33m87f9b75[m Add vest maker
+[33m213a5fd[m Hot fix
+[33m00be7b2[m Hot fix
+[33m766d83f[m Update reports with vest
+[33m93db749[m Fix reports errors
+[33mfe5669c[m Add back_placket
+[33mc45fe26[m Add shirts to orders
+[33mb28789a[m Add Vests to order
+[33m87510d1[m Add Pants to orders
+[33m089c8c7[m Add Coats to orders
+[33m611a434[m Insert forms head
+[33m567c800[m Test orders form
+[33m5700902[m Hot fix double enum
+[33md3e0ca0[m add fabric consumption
+[33m4a3766c[m Add back and front plackets
+[33m3fb32ac[m Add lapel style to vest
+[33m0b184d4[m Add vest style
+[33mb070e51[m Fix vent
+[33m8b3345c[m Change collar_style to lapel style
+[33m8dd8c18[m Add type of service to order
+[33m0877f13[m Remove shoulder pocket
+[33m3896d6d[m Switch MTO_laber and Brand name drop down
+[33me77cb7c[m Create Vests
+[33m7971ae1[m Update Cuffs
+[33mc381ddf[m Add Outseam to pants
+[33mec9e327[m Update oders
+[33m8aa1299[m Permit name to parameters
+[33mb87932a[m Permit name to user
+[33m872a13a[m Add ransacable
+[33m751f2e1[m Add matrix to bundle
+[33md49bf2c[m Update bundle
+[33mea2995d[m Upgrade ruby version
+[33mef47ba3[m Add pleats to pants
+[33me87ed92[m Add quantity to coat and pants
+[33m8716fb4[m Finish coat pdf
+[33m0e329c8[m Add sleeves_and_padding to pdf
+[33m739ab7b[m Standardize mid area of the pdf file
+[33mbd5e05f[m Add control no to tables
+[33md5de6af[m Draft layout with remarks at the bottom
+[33m0b0c12f[m Add control number
+[33md237aa6[m Add logo to PDF
+[33m9dc7530[m Add specs form to objects
+[33mb42d5db[m Fix spelling corrections
+[33mdd42039[m Add Other brands field
+[33m9fe8962[m Add Gender to clients
+[33m1575baa[m Add referred by to clients
+[33mec32146[m Add How did you learn about us at clients
+[33m279f853[m Fix title for shirts in order
+[33m56093cd[m Add IAM in show
+[33mffd5fbe[m Add IAM in printing
+[33me6acbf5[m Add to print remarks
+[33mfec560c[m Create shirt CRUD
+[33m9f2d70f[m Add pleats to pants
+[33mb670409[m Add Pants to print
+[33m3313e09[m Draft Items for Coats and Pants
+[33m07172c6[m Draft header
+[33m4a005c8[m Create print button
+[33m5e50594[m Install Prawn
+[33m1d7c65f[m Add number of buttons to coats
+[33mb244e82[m Add purpose to orders
+[33mb398d5e[m Fix bug in with stooping orders
+[33mfcb111c[m Update coat enum details
+[33m8501f8d[m User Role Update
+[33m17be43e[m Add Coat Style
+[33m180806e[m Create Pants
+[33m98af847[m Create Coats
+[33m8f9f4e1[m Initialize Client table
+[33m716cf85[m Change requests to orders with items
+[33md5332e5[m Add role to users
+[33ma1674b2[m Create approval feature
+[33ma73346f[m Create basic Request model
+[33m10c3231[m Create Request Model
+[33mc6c5f38[m Add active admin workflow
+[33mfbaa903[m Add active admin add ons
+[33m28dc3d0[m Point root to active admin dashboard
+[33mf0c0102[m Install Active admin
+[33m53273f4[m Initial Commit
