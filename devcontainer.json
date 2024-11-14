@@ -1,0 +1,43 @@
+{
+    "name": "Ruby on Rails Development Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+
+    // Settings for VS Code inside the container
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "ruby.useBundler": true
+    },
+
+    // List of extensions for Ruby on Rails development
+    "extensions": [
+        "rebornix.ruby",
+        "castwide.solargraph",
+        "kaiwood.endwise",
+        "sdras.rubocop",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens"
+    ],
+
+    // Forward the default Rails port
+    "forwardPorts": [3000],
+
+    // Define environment variables
+    "env": {
+        "RAILS_ENV": "development",
+        "DATABASE_URL": "postgresql://postgres:password@db:5432/myapp_development"
+    },
+
+    // Run commands after the container is created
+    "postCreateCommand": "bundle install && rails db:create db:migrate",
+
+    // Customizations for GitHub Codespaces
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "README.md"
+            ]
+        }
+    }
+}

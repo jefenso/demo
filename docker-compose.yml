@@ -1,25 +1,27 @@
-version: '3.8'
+version: "3.8"
+
 services:
-  db:
-    image: postgres:latest
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
-    ports:
-      - "5432:5432"
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
-      - "dockerstorage:/var/lib/postgresql/data"
- 
-  web:
-    build: .
-    ports:
-      - "3000:3000"
+      - .:/workspace
+    environment:
+      DATABASE_URL: "postgresql://postgres:password@db:5432/myapp_development"
     depends_on:
       - db
+    ports:
+      - "3000:3000"
+    command: bash -c "rm -f tmp/pids/server.pid && rails server -b 0.0.0.0 -p 3000"
+
+  db:
+    image: postgres:13
     environment:
-      - DATABASE_URL=postgres://postgres:password@db:5432/postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
     volumes:
-      - .:/myapp
- 
+      - postgres_data:/var/lib/postgresql/data
+
 volumes:
-  dockerstorage:
+  postgres_data:
